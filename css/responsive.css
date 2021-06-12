@@ -1,0 +1,38 @@
+@media (max-width:420px){
+  section#banner {
+    padding-top: 2.375rem;
+    padding-bottom: 15.625rem;
+}
+.position-relative {
+  position: relative!important;
+  display: none;
+}
+section {
+  padding: 50px 0;
+  overflow: hidden;
+}
+.counter h3:after {
+  content: "k";
+  position: absolute;
+  left: 60px;
+  font-size: 27px;
+  top: 16px;
+}
+.counter {
+  border-right: none;
+  padding-right: 25px;
+  margin-right: 25px;
+}
+.service-counter-item {
+  display: block;
+}
+.portfolio-item:hover .port-content {
+  top: 88px;
+}
+.contact-info {
+  background: #ec4c6f;
+  color: #fff;
+  padding: 43px 52px;
+  margin-top: 25px;
+}
+}
